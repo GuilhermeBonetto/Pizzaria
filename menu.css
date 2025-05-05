@@ -1,0 +1,44 @@
+/* Estilo para o container da lista */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Permite que os itens se ajustem quando a tela for menor */
+}
+
+/* Estilos para a lista de produtos */
+ul.produtos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.produto-preco {
+	color: #2A9F85;
+	font-weight: "bold";
+	font-size: 26;
+	margin-top: 8;
+}
+
+/* Estilos para cada item da lista */
+.pizzas {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 385px; /* Tamanho fixo para cada item */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;  /* A imagem ocupa toda a largura do contêiner */
+    height: 250px;  /* Altura fixa */
+    object-fit: cover;  /* A imagem preencherá o contêiner sem distorcer, cortando o excesso */
+    border-radius: 8px;
+}
